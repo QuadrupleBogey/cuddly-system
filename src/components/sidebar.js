@@ -20,6 +20,7 @@ const sidebar = ({classes}) => (
             paper: classes.drawerPaper,
         }}
     >
+        <div className={classes.toolbar} />
         <List>
             <ListItem button>
                 <ListItemText primary="Upload"/>

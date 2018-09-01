@@ -10,7 +10,7 @@ import Typography from '@material-ui/core/Typography';
 import Styles from '../styles/styles';
 
 const header = ({classes}) => (
-    <AppBar position="static" className={classes.appBar}>
+    <AppBar position="absolute" className={classes.appBar}>
         <Toolbar>
             <Typography variant="title" color="inherit">
                 Cuddly Cloud

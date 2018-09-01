@@ -9,7 +9,7 @@ import SideBar from './components/sidebar';
 
 import Styles from './styles/styles';
 
-const App = (classes) => (
+const App = ({classes}) => (
   <div className={classes.root}>
     <Header classes={classes}/>
     <SideBar classes={classes}/>
